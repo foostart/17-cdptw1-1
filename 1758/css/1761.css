@@ -1,0 +1,447 @@
+.vc_row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.vc_row:after,
+.vc_row:before {
+  content: " ";
+  display: table;
+}
+.vc_column_container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.vc_column_container>.vc_column-inner {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.vc_column_container>.vc_column-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.vc_column-inner::after,
+.vc_column-inner::before {
+  content: " ";
+  display: table;
+}
+.stm-single-car-contact {
+  padding: 22px 20px 21px;
+  margin-bottom: 34px;
+  background-color: #153e4d;
+}
+.stm-single-car-contact .title {
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: .3px;
+}
+.stm-single-car-contact .title i {
+  position: relative;
+  top: 4px;
+  margin-right: 10px;
+  color: #1bc744;
+  font-size: 26px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+.fa-paper-plane:before,
+.fa-send:before {
+  content: "\f1d8";
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.wpcf7 {
+  margin: 0;
+  padding: 0;
+}
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.stm-user-public-profile .stm-user-sidebar .stm-service-icon-write_message {
+  font-size: 14px;
+}
+.stm-form-with-icon i.stm-service-icon-write_message {
+  font-size: 14px;
+}
+.stm-form-with-icon i {
+  display: block;
+  width: 33px;
+  text-align: center;
+  position: absolute;
+  padding-left: 5px;
+  top: 13px;
+  left: 0;
+  font-size: 10px;
+  color: #aaa;
+  z-index: 10;
+}
+[class^=stm-service-icon-],
+[class*=" stm-service-icon-"] {
+  font-family: 'stm-service-default' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.stm_listing_car_form .wpcf7-form-control-wrap {
+  display: block;
+}
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+.stm_listing_car_form textarea {
+  display: block;
+  max-height: 125px;
+  padding: 8px 10px 8px 30px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+}
+textarea,
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+textarea {
+  padding: 21px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #eceff3;
+  border: 2px solid #eceff3;
+  color: #888;
+  resize: none;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+textarea {
+  overflow: auto;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+.stm_listing_car_form .wpcf7-response-output {
+  margin-top: 25px !important;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff !important;
+}
+div.wpcf7-response-output {
+  margin: 2em .5em 1em;
+  padding: .2em 1em;
+  border: 2px solid red;
+}
+.wpcf7-response-output {
+  margin: 10px 0 0 !important;
+  padding: 15px !important;
+  border: 2px solid #6c98e1 !important;
+  color: #6c98e1 !important;
+  border-radius: 5px;
+}
+.wpcf7-display-none {
+  display: none;
+}
+.stm-form-with-icon {
+  position: relative;
+  margin-bottom: 14px;
+}
+.stm-form-with-icon i.stm-service-icon-user-2 {
+  top: 14px;
+}
+.stm-form-with-icon i {
+  display: block;
+  width: 33px;
+  text-align: center;
+  position: absolute;
+  padding-left: 5px;
+  top: 13px;
+  left: 0;
+  font-size: 10px;
+  color: #aaa;
+  z-index: 10;
+}
+[class^=stm-service-icon-],
+[class*=" stm-service-icon-"] {
+  font-family: 'stm-service-default' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.stm_listing_car_form .wpcf7-form-control-wrap {
+  display: block;
+}
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+.stm_listing_car_form input[type=text],
+.stm_listing_car_form input[type=tel],
+.stm_listing_car_form input[type=email],
+.stm_listing_car_form input[type=search],
+.stm_listing_car_form input[type=password] {
+  height: 37px;
+  line-height: 32px;
+  padding-left: 33px;
+  font-size: 13px;
+}
+.stm-template-listing input[type=text],
+.stm-template-listing input[type=number],
+.stm-template-listing input[type=tel],
+.stm-template-listing input[type=email],
+.stm-template-listing input[type=search],
+.stm-template-listing input[type=password] {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+.stm-prev-next,
+.stm-prev-next i,
+.stm-featured-boats-widget .stm-featured-boats-w-units .content .title,
+.stm-boats-data .single-boat-data-units .stm-gallery-action-unit,
+.stm-template-boats .boats-image-unit,
+.stm-template-front-loop .image:after,
+.stm-isotope-listing-item .image:after,
+.boats-image-unit>div,
+.stm-compare-directory-new,
+.stm-filter-sidebar-boats #stm-classic-filter-submit,
+.stm-boats-shorten-filter,
+.stm-filter-sidebar-boats .form-group,
+.testimonials-carousel-boats .owl-dots .owl-dot span,
+.stm-boats-video-poster,
+.stm-boats-video-iframe .stm-boats-video-poster:before,
+.stm-boats-listing-icons>a .name,
+.stm-layout-box-boats .boat-line,
+.stm-layout-box-boats:after,
+.stm-layout-box-boats:before,
+.stm-boats-news .stm-post-content .title,
+#stm-boats-header #header .header-inner-content .listing-service-right .listing-menu li a:after,
+#stm-boats-header .lOffer-compare .heading-font,
+#stm-boats-header #top-bar .language-switcher-unit .stm_current_language,
+#stm-boats-header #top-bar .top-bar-info li,
+.stm-user-mobile-info-wrapper,
+.listing-menu-mobile-wrapper .stm-opened-menu-listing,
+.listing-menu-mobile-wrapper .listing-menu-mobile>li>a .stm_frst_lvl_trigger,
+.listing-menu-mobile-wrapper .listing-menu-mobile>li>a .stm_frst_lvl_trigger:before,
+.listing-menu-mobile-wrapper .listing-menu-mobile>li>a .stm_frst_lvl_trigger:after,
+.listing-menu ul,
+.stm-write-dealer-review .right .stm-star-rating[data-width="0"] span,
+.stm_add_car_form .stm-form-checking-user .stm-form-inner:before,
+.stm_add_car_form .stm-form-checking-user .stm-form-inner .stm-icon-load1,
+.stm-history-popup,
+.stm_add_car_form .stm_add_car_form_1 .stm-form-1-end-unit .stm-form-1-quarter .stm-label i,
+.stm-delete-confirmation-overlay,
+.stm-delete-confirmation-popup,
+.listing-list-loop-edit,
+.stm_edit_disable_car,
+.stm-directory-grid-loop .image .stm-listing-compare,
+.stm-directory-grid-loop .image .stm-listing-favorite,
+.stm-user-private .stm-user-private-sidebar .stm-actions-list a i,
+.stm-listing-loader,
+.stm-pricing-table__action,
+.stm-pricing__filters .stm-pricing__filter_fluid-hover,
+.stm-listing-car-gallery .stm-car-medias>div,
+.stm-listing-directory-checkboxes .stm-accordion-content-wrapper.loading:before,
+.stm-listing-directory-checkboxes .stm-accordion-content-wrapper.loading:after,
+.stm-listing-directory-checkboxes .stm-option-label .stm-option-image,
+.listing-list-loop.stm-listing-directory-list-loop .stm-car-medias>div,
+.listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare,
+.listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite,
+.listing-list-loop.stm-listing-directory-list-loop .stm-car-medias,
+.stm-template-listing .archive-listing-page .listing-list-loop .image .image-inner:after,
+.stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li,
+.lOffer-account-unit .lOffer-account-dropdown .logout .fa,
+.stm-settings-icon,
+.lOffer-account-dropdown,
+.stm_listing_tabs_style_2 .stm_listing_nav_list li a:after,
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner .image,
+.stm_icon_filter_label,
+.stm_listing_icon_filter .stm_listing_icon_filter_single .inner img,
+.header-listing .listing_add_cart>div,
+.stm-site-preloader:after,
+.stm-site-preloader:before,
+.header-service .bloglogo img,
+.service-mobile-menu-trigger span,
+.header-service,
+.stm-image-links .stm-image-link .inner img,
+.stm-filter-chosen-units-list,
+.stm-ajax-row:before,
+.stm-ajax-row:after,
+.stm-sell-a-car-form .form-navigation .form-navigation-unit .number,
+.stm-sell-a-car-form .form-navigation .form-navigation-unit.validated .number:before,
+#animated-blog-wrapper .title,
+.vc_toggle .vc_toggle_icon:after,
+.mobile-menu-holder .header-menu>li .arrow i,
+.header-help-bar-trigger i,
+.media-carousel-item .stm_fancybox:after,
+.select2-results__options li,
+.modern-filter-badges .stm-filter-chosen-units-list,
+.stm-modern-filter-unit-images .stm-single-unit-image .image,
+.product-title,
+.stm-shop-sidebar-area .widget>ul>li>a:hover:before,
+.post-grid-single-unit .title,
+.widget_archive .select2-container--default .select2-selection--single .select2-selection__arrow:after,
+#main .widget_search form.search-form:before,
+.stm-accordion-single-unit>a.title h5,
+.stm-accordion-single-unit>a.title .minus,
+.stm-accordion-single-unit>a.title .minus:after,
+.certified-logo-1,
+.certified-logo-2,
+.listing-list-loop .title,
+.icon-box .icon-text .content span,
+.icon-box .icon-text .content p,
+.stm-compare-car-img:after,
+.compare-col-stm-empty .image img,
+.remove-from-compare,
+.stm-call-to-action-1 .stm-call-action-right .stm-call-action-right-banner,
+.stm-call-action-right-banner,
+.compare-col-stm-empty .h5,
+.compare-col-stm-empty>a:hover .h5,
+.compare-col-stm-empty .image .stm-icon-car_search,
+.compare-col-stm-empty .image:hover .stm-icon-car_search,
+.brands-carousel-item-inner,
+.single-add-to-compare,
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=search],
+input[type=password],
+textarea,
+.wpb_tour_tabs_wrapper.ui-tabs ul.wpb_tabs_nav>li>a:before,
+.vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab:before,
+.stm-thumbs-car-gallery .owl-item:after,
+.modal-open #wrapper,
+.team-info,
+.stm-our-team .image:before,
+.stm-our-team .meta,
+.stm-our-team .meta .name,
+.stm-our-team .meta .position,
+.owl-prev,
+.owl-next,
+.vc_tta-icon,
+.load-more-btn,
+.car-listing-actions,
+.stm-owl-next,
+.stm-owl-prev,
+.icon-box-bottom-triangle,
+.icon-box:before,
+.home-slider .tp-bullet,
+.fancy-iframe,
+a,
+.ajax-loader,
+.global-alerts,
+.stm-ajax-row,
+.stm-ajax-row:before,
+.calculator-alert {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type=text] {
+    font-size: 16px;
+  }
+}
+input[type=text],
+input[type=number],
+input[type=tel],
+input[type=email],
+input[type=search],
+input[type=password] {
+  display: block;
+  width: 100%;
+  height: 47px;
+  line-height: 47px;
+  padding: 0 21px;
+  font-weight: 400;
+  color: #888;
+  border: 2px solid #eceff3;
+  font-size: 14px;
+  outline: none !important;
+  background-color: #eceff3;
+}
+textarea,
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+input {
+  line-height: normal;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+@media (min-width: 768px) {
+  .vc_col-sm-12 {
+    width: 100%;
+  }
+}
