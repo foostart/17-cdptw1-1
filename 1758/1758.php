@@ -28,11 +28,12 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="<?php echo $url_path; ?>/css/1758.css" rel="stylesheet"/>
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet"/>
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet"/>
+
 </head>
 <body>
-    <?php include '1758-content.php'; ?>
+    <div class="type-1758">
+        <?php include '1758-content.php'; ?>
+    </div>
 </body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
