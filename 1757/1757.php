@@ -30,31 +30,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="<?php echo $url_path; ?>/css/1757.css" rel="stylesheet" />
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet" />
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet" />
+    <!-- <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet" /> -->
+    <!-- <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet" /> -->
 </head>
 
 <body>
-    <?php include '1757-content.php'; ?>
+    <div class="type-1757">
+        <?php include '1757-content.php'; ?>
+    </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- <script src="js/bootstrap.js"></script> -->
 <script>
 $(function() {
-    $("#switch-view").click(function() {
-        $(this).find("button").toggleClass("active");
-        $(".article-wrapper").toggleClass("bloc col-xs-12 col-xs-4");
+    // $("#switch-view").click(function() {
+    //     $('button').removeClass('active');
+    //     $(this).find("button").addClass("active");
+    //     alert(123);
+    //     $(".article-wrapper").toggleClass("bloc col-xs-12 col-xs-4");
+    // });
+    $('.type-1757-btna').click(function(){
+        $('#switch-view').find('button').removeClass('active');
+        $(this).addClass('active');
+        $(".article-wrapper").addClass("bloc col-xs-4");
+        $(".article-wrapper").removeClass("col-xs-12");
+    });
+    $('.type-1757-btnb').click(function(){
+        $('#switch-view').find('button').removeClass('active');
+        $(this).addClass('active');
+        $(".article-wrapper").removeClass("bloc col-xs-4");
+        $(".article-wrapper").addClass("col-xs-12");
     });
 });
 </script>

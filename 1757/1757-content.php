@@ -16,10 +16,10 @@
     <div class="col-md-12">
         <div class="container list-article">
             <div class="btn-group pull-right" id="switch-view">
-                <button class="btn btn-primary">
+                <button class="btn btn-primary type-1757-btna">
                     <span class="icon-th-large"></span>
                 </button>
-                <button class="btn btn-primary active">
+                <button class="btn btn-primary type-1757-btnb active">
                     <span class="icon-th-list"></span>
                 </button>
             </div>

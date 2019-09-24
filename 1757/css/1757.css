@@ -1,34 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-body {
+.type-1757 {
   padding: 0 100px 100px;
   background-color: #CDE !important;
 }
-h1#header {
+.type-1757 h1#header {
   text-align: center;
   padding: 50px;
   font-size: 62px;
   font-family: "Pacifico";
   text-shadow: 0 2px 2px #3c77b3;
 }
-.article-wrapper {
+.type-1757 .article-wrapper {
   -moz-transition: width 0.4s;
   -o-transition: width 0.4s;
   -webkit-transition: width 0.4s;
   transition: width 0.4s;
 }
-article {
+.type-1757 article {
   position: relative;
   padding-left: 180px;
   padding-right: 75px;
   height: 150px;
   margin-bottom: 30px;
-  background-color: #FFF;
+  background-color: #fff;
   -moz-border-radius: 150px;
   -webkit-border-radius: 150px;
   border-radius: 150px;
   cursor: pointer;
 }
-article .img-wrapper {
+.type-1757 article .img-wrapper {
   position: absolute;
   top: -10px;
   left: -10px;
@@ -43,7 +43,7 @@ article .img-wrapper {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-article .img-wrapper img {
+.type-1757 article .img-wrapper img {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
@@ -53,7 +53,7 @@ article .img-wrapper img {
   transition: all 0.2s;
   width: 150px;
 }
-article h1 {
+.type-1757 article h1 {
   height: 75px;
   line-height: 75px;
   font-size: 24px;
@@ -64,10 +64,10 @@ article h1 {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-article p {
+.type-1757 article p {
   color: #888;
 }
-article a {
+.type-1757 article a {
   position: absolute;
   display: block;
   top: 0;
@@ -92,20 +92,20 @@ article a {
   font-family: "Pacifico";
   text-shadow: 0 1px 1px #AAA;
 }
-article:hover .img-wrapper {
+.type-1757 article:hover .img-wrapper {
   padding: 5px;
   -moz-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
 }
-article:hover .img-wrapper img {
+.type-1757 article:hover .img-wrapper img {
   width: 160px;
 }
-article:hover a {
+.type-1757 article:hover a {
   opacity: 1;
 }
-.bloc article {
+.type-1757 .bloc article {
   padding: 10px;
   height: 225px;
   -moz-border-radius: 3px;
@@ -113,7 +113,7 @@ article:hover a {
   border-radius: 3px;
   margin-top: 75px;
 }
-.bloc article .img-wrapper {
+.type-1757 .bloc article .img-wrapper {
   position: relative;
   top: -85px;
   width: 170px;
@@ -121,21 +121,21 @@ article:hover a {
   margin: auto;
   margin-bottom: -100px;
 }
-.bloc article h1 {
+.type-1757 .bloc article h1 {
   font-size: 14px;
   height: 37.5px;
   line-height: 37.5px;
 }
-.bloc article p {
+.type-1757 .bloc article p {
   font-size: 12px;
 }
-.bloc article a {
+.type-1757 .bloc article a {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   line-height: 255px;
 }
-.btn-group,
-.btn-group-vertical {
+.type-1757 .btn-group,
+.type-1757 .btn-group-vertical {
   float: right;
 }
