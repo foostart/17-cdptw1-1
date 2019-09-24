@@ -206,3 +206,17 @@ var buttonFilter = {
 		}
   	}
 };
+$(function() {
+    $('.type-1757-btna').click(function(){
+        $('#switch-view').find('button').removeClass('active');
+        $(this).addClass('active');
+        $(".article-wrapper").addClass("bloc col-md-4 col-sm-6 col-xs-12");
+        $(".article-wrapper").removeClass("col-md-12");
+    });
+    $('.type-1757-btnb').click(function(){
+        $('#switch-view').find('button').removeClass('active');
+        $(this).addClass('active');
+        $(".article-wrapper").removeClass("bloc col-md-4 col-sm-6 col-xs-12");
+        $(".article-wrapper").addClass("col-md-12");
+    });
+});
