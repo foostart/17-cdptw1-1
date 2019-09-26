@@ -3,6 +3,7 @@
   height: 100%;
   min-height: 100%;
   color: #666;
+  font-size: 25px;
 }
 .type-709 a,
 .type-709 a:hover {
@@ -63,4 +64,27 @@
   .type-709 .container-modify {
     width: 450px;
   }
+}
+.type-709 .mega-menu-ul li {
+  display: inline;
+}
+.type-709 li {
+  padding: 20px;
+}
+.type-709 .mega-menu-ul {
+  border-bottom: 5px solid #000;
+  padding-left: 0px;
+}
+.type-709 .mega-menu {
+  border-bottom: 1px solid #000;
+}
+.type-709 .top-dau {
+  padding-left: 10px;
+}
+.type-709 .hung-hien {
+  position: fixed;
+  top: 50px;
+  left: 110px;
+  margin-right: 100px;
+  padding-right: 100px;
 }
