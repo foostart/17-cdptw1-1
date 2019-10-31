@@ -1,6 +1,10 @@
+
+@import "../var/var.less";
 .type-1758{
+    text-align: center;
     .card-product {
-        margin-bottom: 1rem;
+        margin-bottom: @martopbot2;
+        margin-top: @martopbot2;
         .img-wrap {
             border-radius: 0.2rem 0.2rem 0 0;
             overflow: hidden;
@@ -8,8 +12,8 @@
             height: 220px;
             text-align: center;
             img {
-                max-height: 100%;
-                max-width: 100%;
+                max-height: @max-wh;
+                max-width: @max-wh;
                 width: auto;
                 display: inline-block;
                 -o-object-fit: cover;
@@ -17,11 +21,11 @@
             }
         }
         .title {
-            margin-top: 0;
+            margin-top: @margintop1;
         }
         .action-wrap {
-            padding-top: 4px;
-            margin-top: 4px;
+            padding-top: @margintop2;
+            margin-top: @paddingtop1;
         }
     }
     .card {
@@ -55,14 +59,14 @@
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
+        margin-right: @marrightleft1;
+        margin-left: @marrightleft1;
     }
     .img-wrap {
         text-align: center;
         display: block;
         img {
-            max-width: 100%;
+            max-width: @max-wh;
         }
     }
     img {
@@ -81,7 +85,7 @@
     }
     h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
     }
     .mb-2, .my-2 {
         margin-bottom: 0.5rem !important;
@@ -203,7 +207,7 @@
             position: relative;
             img {
                 display: block;
-                max-width: 100%;
+                max-width: @max-wh;
                 height: 500px;
             }
         }
@@ -243,7 +247,7 @@
             position: absolute;
             z-index: 1;
             width: 500%;
-            left: -200%; /* (width - 100%) / 2 */
+            left: -200%; /* (width - @max-wh) / 2 */
             top: 50%;
             height: 40px;
             margin-top: -20px; /* height x -0,5 */
@@ -311,5 +315,15 @@
             flex: 0 0 50%;
             max-width: 50%;
         }
+    }
+    .btn-secondary{
+        background-color: #999;
+        color: #fff;
+    }
+    .btn-secondary:hover{
+        background-color: #777;
+    }
+    .add-1758:hover{
+        text-decoration: none;
     }
 }

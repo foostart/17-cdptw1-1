@@ -79,7 +79,7 @@
 									<a href="#" class="btn btn-primary"> Buy now </a>
 									<a href="#" class="btn btn-secondary"> Details  </a>
 								</p>
-								<a href="#"><i class="fa fa-heart"></i> Add to wishlist</a>
+								<a href="#" class="add-1758"><i class="fa fa-heart"></i> Add to wishlist</a>
 							</div> <!-- action-wrap.// -->
 						</aside> <!-- col.// -->
 					</div> <!-- row.// -->
@@ -147,7 +147,7 @@
 									<a href="#" class="btn btn-primary"> Buy now </a>
 									<a href="#" class="btn btn-secondary"> Details  </a>
 								</p>
-								<a href="#"><i class="fa fa-heart"></i> Add to wishlist</a>
+								<a href="#"  class="add-1758"><i class="fa fa-heart"></i> Add to wishlist</a>
 							</div> <!-- action-wrap.// -->
 						</aside> <!-- col.// -->
 					</div> <!-- row.// -->

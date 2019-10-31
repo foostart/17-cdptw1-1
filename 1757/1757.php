@@ -28,10 +28,10 @@
     <title>Document</title>
 
     <!-- include js -->
-    <script  src = "js/bootstrap.min.js"></script>
+    <!-- <script  src = "js/bootstrap.min.js"></script> -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/main.js"></script> 
+    <script src="js/1757.js"></script> 
     <!-- include css -->
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
