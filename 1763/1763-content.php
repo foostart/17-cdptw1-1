@@ -16,8 +16,39 @@
             <a href="#intro" class="scrollto"><img src="img/mau-thiet-ke-logo-nha-hang-mien-phi-10.png" alt="" title=""></a>
         </div>
 
-        <nav id="nav-menu-container">
+        <!-- <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div> -->
+        
+
+        <nav class="navigation">
             <ul class="nav-menu">
+                <li class="menu-active"><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#supporters">Sponsors</a></li>
+                <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+            </ul>
+            <div class="nav-toggle">
+            <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </div>
+        </nav>
+
+
+        <!-- <nav id="nav-menu-container">
+            <ul class="nav-menu navbar navbar-default">
                 <li class="menu-active"><a href="#intro">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#speakers">Speakers</a></li>
@@ -28,8 +59,10 @@
                 <li><a href="#supporters">Sponsors</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+            </a>
             </ul>
-        </nav><!-- #nav-menu-container -->
+        </nav> -->
+        
     </div>
 </header><!-- #header -->
 <section id="intro">
@@ -43,7 +76,6 @@
 </section>
 
 <main id="main">
-
     <section id="about">
         <div class="container">
             <div class="row">
