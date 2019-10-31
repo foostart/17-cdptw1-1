@@ -31,11 +31,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="js/jquery-1.11.0.min.js"></script>
-<<<<<<< HEAD
     <script src="js/bootstrap.min.js"></script> 
-=======
-        <script src="js/bootstrap.min.js"></script> 
->>>>>>> 3d662af65cadc3eb06663b5020dcc7648a0bde62
 
 </head>
 <body>
